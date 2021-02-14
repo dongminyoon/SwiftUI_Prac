@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello 😃\nSwiftUI").font(.largeTitle).lineLimit(1)
+        Text("Hello 😃\nSwiftUI").font(.largeTitle)
+            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+            .lineLimit(1)
             .padding(.all)
             .accentColor(.red)
     }
