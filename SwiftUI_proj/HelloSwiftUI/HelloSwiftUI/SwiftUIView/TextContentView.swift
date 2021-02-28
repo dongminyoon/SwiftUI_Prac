@@ -27,6 +27,7 @@ struct TextContentView: View {
                 .italic()
                 .underline()
                 .strikethrough()
+                .multilineTextAlignment(.center)
             
             Text("라인 수 제한과 \n 텍스트 정렬 기능입니다. \n 이건 안 보입니다.")
                 .fixedSize()
